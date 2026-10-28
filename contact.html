@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us | Paul Cafe — Premium Coffee Delivery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="bar">
+  <a class="brand" href="index.html"><img src="assets/images/brand/logo.jpg" alt="Paul Cafe logo"><span><strong>Paul Cafe</strong><small>Premium Coffee</small></span></a>
+  <button id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mainNav">☰</button>
+  <nav id="mainNav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" class="active" aria-current="page">Contact</a></li><li><a href="signin.html">Sign In</a></li><li><a href="signup.html">Sign Up</a></li><li><a href="menu.html">🛒 Cart<span class="badge" id="cartBadge">0</span></a></li></ul></nav>
+ </div>
+</header>
+
+<main>
+<section class="alt"><div class="wrap">
+ <div class="section-title">
+  <h1>Contact Us</h1>
+  <p>We would love to hear from you.</p>
+ </div>
+ <div class="two">
+  <form id="contactForm" novalidate>
+   <label for="cName">Full Name</label><input id="cName" type="text" autocomplete="name" placeholder="Juan Dela Cruz"><p class="error" id="cNameErr"></p>
+   <label for="cEmail">Email Address</label><input id="cEmail" type="email" autocomplete="email" placeholder="juan@email.com"><p class="error" id="cEmailErr"></p>
+   <label for="cPhone">Phone Number</label><input id="cPhone" type="tel" autocomplete="tel" placeholder="09171234567"><p class="error" id="cPhoneErr"></p>
+   <label for="cMessage">Message</label><textarea id="cMessage" rows="5" placeholder="How can we help you?"></textarea><p class="error" id="cMessageErr"></p>
+   <p><button type="submit" class="btn gold large">Send Message</button></p>
+   <p id="contactSuccess" class="msg ok hidden" role="status"></p>
+  </form>
+   <div>
+    <h2 style="font-family:'Georgia','Times New Roman',serif;color:var(--coffee-dark);margin-bottom:1rem">Get in Touch</h2>
+    <img src="assets/images/decor/coffeebeans.jpg" alt="Coffee beans" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin:0 auto 1rem;display:block;border:3px solid var(--latte-gold)">
+    <div class="coffee-cup-decor" style="width:45px;height:45px;margin-bottom:1rem"></div>
+   <p><strong>Address:</strong> R.Castillo, Davao City, Davao Del Sur, 8000</p>
+   <p><strong>Phone:</strong> 09751234567</p>
+   <p><strong>Email:</strong> hello@paulcafe.local</p>
+   <h3 style="font-family:'Georgia','Times New Roman',serif;color:var(--coffee-dark);margin-top:1.5rem">Business Hours</h3>
+   <p>Monday – Sunday: 8:00 AM – 10:00 PM</p>
+   <p style="color:var(--latte-gold);font-weight:700">Premium Coffee Delivered</p>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer><p><strong>Paul Cafe</strong> – Premium Coffee Delivered &nbsp;|&nbsp; Freshly brewed coffee and delivery</p></footer>
+<script src="main.js"></script>
+</body>
+</html>

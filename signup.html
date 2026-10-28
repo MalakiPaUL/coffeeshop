@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign Up | Paul Cafe — Premium Coffee Delivery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="bar">
+  <a class="brand" href="index.html"><img src="assets/images/brand/logo.jpg" alt="Paul Cafe logo"><span><strong>Paul Cafe</strong><small>Premium Coffee</small></span></a>
+  <a class="btn" href="index.html" style="margin-left:auto">Back to Home</a>
+ </div>
+</header>
+
+<main>
+<section class="alt"><div class="wrap" style="max-width:560px;margin:0 auto">
+ <form id="signupForm" novalidate>
+  <div class="coffee-cup-decor" style="width:70px;height:70px;margin-bottom:1rem"></div>
+  <h2 style="font-family:'Georgia','Times New Roman',serif;color:var(--coffee-dark);text-align:center;margin-bottom:.5rem">Create an account</h2>
+  <p style="text-align:center;color:var(--muted);margin-bottom:1.5rem">Join Paul Cafe and start ordering coffee.</p>
+  <div class="role-toggle" style="display:flex;gap:.5rem;margin:1rem 0;justify-content:center">
+   <button type="button" class="role-btn active" data-role="account">Customer</button>
+   <button type="button" class="role-btn" data-role="rider">Delivery Rider</button>
+  </div>
+  <input type="hidden" id="suRole" name="role" value="account">
+  <label for="suName">Full Name</label><input id="suName" type="text" autocomplete="name" placeholder="Juan Dela Cruz"><p class="error" id="suNameErr"></p>
+  <label for="suEmail">Email Address</label><input id="suEmail" type="email" autocomplete="email" placeholder="paul@gmail.com"><p class="error" id="suEmailErr"></p>
+  <label for="suPhone">Phone Number</label><input id="suPhone" type="tel" autocomplete="tel" placeholder="09751234567"><p class="error" id="suPhoneErr"></p>
+  <label for="suAddress">Delivery Address</label><input id="suAddress" type="text" autocomplete="address" placeholder="Mintal, Davao City, Davao del Sur, Philippines 8000"><p class="error" id="suAddressErr"></p>
+  <label for="suPassword">Password</label><input id="suPassword" type="password" autocomplete="new-password" placeholder="••••••••"><p class="error" id="suPasswordErr"></p>
+  <label for="suConfirmPassword">Confirm Password</label><input id="suConfirmPassword" type="password" autocomplete="new-password" placeholder="••••••••"><p class="error" id="suConfirmPasswordErr"></p>
+  <p class="error" id="suFormErr" style="margin-bottom:.8rem"></p>
+  <p style="text-align:center"><button type="submit" class="btn gold large">Sign Up</button></p>
+  <p class="center" style="margin-top:1rem">Already have an account? <a href="signin.html">Sign in</a></p>
+ </form>
+</div></section>
+</main>
+
+<footer><p><strong>Paul Cafe</strong> – Premium Coffee Delivered &nbsp;|&nbsp; Freshly brewed coffee and delivery</p></footer>
+<script src="main.js"></script>
+</body>
+</html>
