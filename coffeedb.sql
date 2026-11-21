@@ -1,4 +1,4 @@
--- Gertrudes Cafe — Coffee Shop Database
+-- Paul Cafe — Coffee Shop Database
 -- Import this into phpMyAdmin or run via mysql command line
 
 CREATE DATABASE IF NOT EXISTS coffeedb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;

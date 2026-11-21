@@ -1,4 +1,4 @@
-# Gertrudes Cafe — Coffee Shop & Delivery
+# Paul Cafe — Coffee Shop & Delivery
 
 A responsive coffee shop website with menu browsing, shopping cart, checkout, sign-in/sign-up, and contact form. Built with HTML, CSS, and vanilla JavaScript, running on XAMPP (Apache + MariaDB).
 

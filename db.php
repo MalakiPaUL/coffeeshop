@@ -1,5 +1,5 @@
 <?php
-// Gertrudes Cafe — Database connection (XAMPP: MariaDB/MySQL via PDO)
+// Paul Cafe — Database connection (XAMPP: MariaDB/MySQL via PDO)
 header('Content-Type: application/json; charset=utf-8');
 
 $host = '127.0.0.1';
